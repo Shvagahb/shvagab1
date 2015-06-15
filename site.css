@@ -2,10 +2,10 @@ body {
     
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-image: url(http://i.imgur.com/4ALqKzy.jpg);
-    background-repeat: no-repeat;
     color: #696969;
     padding: 3px;
+    background: #ffffff url("http://i.imgur.com/4ALqKzy.jpg") no-repeat right top;
+    
 
 
 #main {
