@@ -4,8 +4,11 @@ body {
     font-size: 16px;
     color: #696969;
     padding: 3px;
-    background: #ffffff url("http://i.imgur.com/4ALqKzy.jpg") no-repeat right top;
-    
+    background: #ffffff url("http://i.imgur.com/4ALqKzy.jpg") no-repeat center center fixed;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 
 #main {
