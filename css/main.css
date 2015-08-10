@@ -84,6 +84,7 @@ body {
 .footer-container,
 .main aside {
     background: #f16529;
+    display:none;
 }
 
 .title {
@@ -121,9 +122,7 @@ nav a:visited {
 nav a:hover {
     text-decoration: underline;
 }
-.display: none {
-    
-}
+
 /* ==============
     MOBILE: Main
    ============== */
