@@ -57,10 +57,11 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: black;
+    background-image:url(http://i.imgur.com/fD28KM7.jpg) ;
 
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
     color:white;
+
 }
 
 .wrapper {
