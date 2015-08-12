@@ -35,7 +35,6 @@ h5 {
 .btn {
   font-size: 13px;
   border: solid 2px;
-  border-radius: 40px;
   display: inline-block;
   text-transform: uppercase; }
 
@@ -65,8 +64,8 @@ h5 {
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: #D7405D;
-  border-color: #D7405D; }
+  background-color: transparent;
+  border: 2px solid #fff; }
 
 .btn-small {
   padding: 8px 40px; }
