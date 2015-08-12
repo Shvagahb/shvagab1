@@ -823,7 +823,7 @@ footer {
       margin-top: 20px; }
   footer .footer-links {
     margin: 120px 0 120px 0; 
-    color:#fff;}
+}
 
 /* ==========================================================================
 Icon font (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
@@ -1165,6 +1165,13 @@ you can use the generic selector below, but it's slower:
 .icon-dribbble:before {
   content: "\e063"; }
 
+/* newly added */
 .hide {
   display: none;
 }
+
+.foots {
+  color: white;
+    font-size: 2em;
+}
+
