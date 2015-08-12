@@ -350,7 +350,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("http://i.imgur.com/F6im0Wx.jpg") center center;
+  background: url("http://i.imgur.com/JX4j7H0.jpg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -797,7 +797,7 @@ footer {
     footer .social-share a.twitter-share {
       height: 60px;
       width: 60px;
-      background-color: #1AB4EF;
+      background-color: transparent;
       border-radius: 3px;
       font-size: 22px;
       display: inline-block;
