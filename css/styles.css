@@ -36,7 +36,8 @@ h5 {
   font-size: 13px;
   border: solid 2px;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased; }
 
 .btn:hover, .btn:focus {
   color: #fff;
@@ -64,7 +65,7 @@ h5 {
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #FFFFFF;
   border: 2px solid #fff; }
 
 .btn-small {
