@@ -55,8 +55,8 @@ h5 {
   border-color: #fff; }
 
 .btn-white:hover, .btn-white:focus {
-  color: #FF5274;
-  border-color: #FF5274; }
+  color: #FFFFFF;
+  border-color: #FFFFFF; }
 
 .btn-fill {
   color: #fff;
@@ -100,7 +100,7 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #FF5274;
+  color: #FFFFFF;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
