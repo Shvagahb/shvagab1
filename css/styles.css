@@ -40,8 +40,8 @@ h5 {
 
 .btn:hover, .btn:focus {
   color: #fff;
-  border-color: #FF5274;
-  background-color: #FF5274; }
+  border-color: #FFFFFF;
+  background-color: #FFFFFF; }
 
 .btn-white {
   font-size: 13px;
@@ -60,7 +60,7 @@ h5 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase;
-  background-color: #FF5274; }
+  background-color: transparent; }
 
 .btn-fill:hover, .btn-fill:focus {
   color: #fff;
