@@ -1173,7 +1173,7 @@ you can use the generic selector below, but it's slower:
 
 .foots {
   color: white;
-    font-size: 2em;
+    font-size: 1em;
 }
 
 .nomoresquare {
