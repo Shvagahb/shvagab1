@@ -74,3 +74,11 @@ p {
 				font-size: 0.9rem;
 		}
 }
+
+/*added classes*/
+
+.center {
+	position:absolute;  /*placing image exactly where you want it */
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
