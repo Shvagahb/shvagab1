@@ -67,6 +67,10 @@ p {
 .caption {
 		font-weight: 500;
 		margin-top: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		margin: 0;
+		
 }
 
 @media (max-width:600px) {
