@@ -206,7 +206,7 @@ Animations
   100% {
     -webkit-transform: scale(1);
             transform: scale(1); } }
-.floating-arrow {
+/*.floating-arrow {
   -webkit-animation-name: floating-arrow;
           animation-name: floating-arrow;
   -webkit-animation-duration: 2s;
@@ -214,9 +214,9 @@ Animations
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out; }
+          animation-timing-function: ease-in-out; }*/
 
-@-webkit-keyframes floating-arrow {
+/*@-webkit-keyframes floating-arrow {
   from {
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
@@ -236,7 +236,7 @@ Animations
             transform: translate(-50%, 15px); }
   to {
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }
+            transform: translate(-50%, 0); } }*/
 .floating-logo {
   -webkit-animation-name: floating-logo;
           animation-name: floating-logo;
@@ -429,8 +429,10 @@ header {
   color: #fff;
   font-size: 30px;
   position: absolute;
-  bottom: 60px;
-  left: 50%;
+  bottom: 496px;
+  left: 49%;
+  padding-bottom: 8px;
+  transform: translate(-50%,0%)
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%); }
@@ -1223,13 +1225,6 @@ you can use the generic selector below, but it's slower:
     cursor: pointer;
 }
 
-.altcontainer:first-of-type .circle {
-    background-image: url('http://www.diningoutforlife.com/wp-content/uploads/2014/02/restaurant.jpg');
-}
-
-.altcontainer:last-of-type .circle {
-    background-image: url('http://static.marketintelligencecenter.com/img/MIC/13-10/sandwich.jpg');
-}
 
 .caption {
     font-weight: 500;
