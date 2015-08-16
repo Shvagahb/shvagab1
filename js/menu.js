@@ -4,7 +4,7 @@ if(idasorbust == "http://shvagahb.github.io/resume.html"){
 	// console.log("doge")
 }
 
-if(idasorbust == "http://shvagahb.github.io"){
+if(idasorbust == "http://shvagahb.github.io/"){
 	var test = document.getElementById("dogedown");
 	test.style.bottom="140px";
 	test.style.left="50%";
