@@ -1,2 +1,2 @@
-var idasorbus=window.location.href:
-console.log idasorbust;
+var idasorbust=window.location.href;
+console.log idasorbust;	
