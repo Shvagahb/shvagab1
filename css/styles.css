@@ -1247,5 +1247,5 @@ you can use the generic selector below, but it's slower:
 }
 
 style.newback {
-url("https://farm3.staticflickr.com/2264/2081428662_ab28cc3d2d_o.jpg") center center !important
+url("https://farm3.staticflickr.com/2264/2081428662_ab28cc3d2d_o.jpg") center center !important;
 }
