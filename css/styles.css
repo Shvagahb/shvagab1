@@ -103,6 +103,7 @@ Global Styles
 a {
   color: #FFFFFF;
   font-size: 30px;
+  text-shadow: 1px 1px 2px black;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
   -webkit-transition-duration: 200ms;
@@ -112,6 +113,7 @@ a {
 
 a:hover, a:focus {
   color: #000000;
+  text-shadow: #ffffff;
   text-decoration: none; }
 
 body {
