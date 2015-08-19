@@ -1246,7 +1246,8 @@ you can use the generic selector below, but it's slower:
   transform: translate(-50%, 0%);
 }
 
+
 .newback {
-        background: url("https://farm3.staticflickr.com/2264/2081428662_ab28cc3d2d_o.jpg") no-repeat center center fixed;
+        background: url("http://i.huffpost.com/gen/1470340/images/o-OCTOPUS-VULGARIS-facebook.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
 }
