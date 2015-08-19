@@ -121,6 +121,8 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   color: rgba(255, 255, 255, 1);
+  scrollbar-face-color: #b46868;
+}
   -webkit-text-size-adjust: 100%; }
 
 ul, ol {
