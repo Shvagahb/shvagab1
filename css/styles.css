@@ -111,7 +111,7 @@ a {
   transition-property: color, border-color, background-color; }
 
 a:hover, a:focus {
-  color: #675c5e;
+  color: #d9dfe3;
   text-decoration: none; }
 
 body {
