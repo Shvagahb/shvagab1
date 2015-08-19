@@ -1247,5 +1247,6 @@ you can use the generic selector below, but it's slower:
 }
 
 .newback {
-url("https://farm3.staticflickr.com/2264/2081428662_ab28cc3d2d_o.jpg") center center !important;
+        background: url("https://farm3.staticflickr.com/2264/2081428662_ab28cc3d2d_o.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
 }
