@@ -211,7 +211,9 @@ Animations
   100% {
     -webkit-transform: scale(1);
             transform: scale(1); } }
-/*.floating-arrow {
+
+
+.floating-arrow {
   -webkit-animation-name: floating-arrow;
           animation-name: floating-arrow;
   -webkit-animation-duration: 2s;
@@ -219,9 +221,9 @@ Animations
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out; }*/
+          animation-timing-function: ease-in-out; }
 
-/*@-webkit-keyframes floating-arrow {
+@-webkit-keyframes floating-arrow {
   from {
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0); }
@@ -241,7 +243,10 @@ Animations
             transform: translate(-50%, 15px); }
   to {
     -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0); } }*/
+            transform: translate(-50%, 0); } }
+
+
+
 .floating-logo {
   -webkit-animation-name: floating-logo;
           animation-name: floating-logo;
