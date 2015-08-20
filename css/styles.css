@@ -1247,7 +1247,28 @@ you can use the generic selector below, but it's slower:
 }
 
 
-.newback {
+.newbackdesign {
         background: url("http://i.huffpost.com/gen/1470340/images/o-OCTOPUS-VULGARIS-facebook.jpg") no-repeat center center fixed;
         -webkit-background-size: cover;
 }
+.newbackmarketing {
+        background: url("http://i.imgur.com/xvoYIJG.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+}.newbacktechprojects {
+        background: url("http://i.imgur.com/fbzRUvE.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+}.newbacktravelphotography {
+        background: url("http://i.huffpost.com/gen/1470340/images/o-OCTOPUS-VULGARIS-facebook.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+}.newbackworkhistory {
+        background: url("http://i.imgur.com/DxFbIyO.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+}.newbackwhyicare {
+        background: url("http://i.imgur.com/nBdVwIo.jpg") no-repeat center center fixed;
+        -webkit-background-size: cover;
+}
+
+
+
+
+
