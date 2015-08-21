@@ -84,7 +84,7 @@ section.intro, section.features-extra, section.sign-up {
   background: #fff; }
 
 section.features, section.blog-intro, section.blog {
-  background: #F3F4F8; }
+  background: #000000; }
 
 /* ==========================================================================
 Global Styles
@@ -509,7 +509,7 @@ Features-stack
   .features .ipad-wrap {
     width: 706px;
     height: 1002px;
-    background: url("../img/ipad-device.png") no-repeat center center;
+    background: url("http://i.imgur.com/SNYfGEw.png") no-repeat center center;
     z-index: 1; }
   .features .iphone-wrap {
     width: 304px;
@@ -542,7 +542,7 @@ Features-stack
     position: absolute;
     width: 916px;
     height: 540px;
-    background: url("../img/macbook-pro.png") no-repeat center center;
+    background: url("http://i.imgur.com/rMIwbtC.png") no-repeat center center;
     top: 114px;
     z-index: 4;
     left: 50%; }
