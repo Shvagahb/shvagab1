@@ -1274,6 +1274,8 @@ you can use the generic selector below, but it's slower:
 }
 
 
-
+.fright {
+  text-align: right;
+}
 
 
