@@ -503,7 +503,7 @@ Features-stack
   .features ul.features-stack li {
     margin-top: 20px;
     padding-bottom: 20px;
-    border-bottom: solid 1px #E6E9EA; }
+    /*border-bottom: solid 1px #E6E9EA;*/ }
   .features ul.features-stack li:last-child {
     padding-bottom: 0px;
     border-bottom: none; }
