@@ -121,7 +121,7 @@ a:hover, a:focus {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  color: #FFDB04);
+  color: rgba(91, 178, 47);
   scrollbar-face-color: #b46868;
 }
   -webkit-text-size-adjust: 100%; }
