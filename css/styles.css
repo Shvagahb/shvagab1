@@ -1287,5 +1287,7 @@ you can use the generic selector below, but it's slower:
 }
 
 .aemail:hover {
-    color: #A9C969;
+    color: #58B02D;
+    text-shadow: none;
+    text-decoration: none;
 }
