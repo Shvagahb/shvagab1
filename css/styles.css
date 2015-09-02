@@ -1286,6 +1286,6 @@ you can use the generic selector below, but it's slower:
 
 }
 
-aemail:hover {
-    color: #FF00FF;
+.aemail:hover {
+    color: #A9C969;
 }
