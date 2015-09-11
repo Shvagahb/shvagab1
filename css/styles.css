@@ -35,9 +35,10 @@ h5 {
   font-weight: 800; }
 
 h6 {
-  font-size: 24px;
+  font-size: 27px;
   margin-bottom: 20px;
-  color: #fff; }
+  color: #1FB9AA; }
+
 
 .btn {
   font-size: 13px;
@@ -87,7 +88,7 @@ h6 {
   margin-right: 20px; }
 
 section.intro, section.features-extra, section.sign-up {
-  background: #000000; }
+  background: #fff; }
 
 section.features, section.blog-intro, section.blog {
   background: #ffffff; }
@@ -1287,19 +1288,28 @@ you can use the generic selector below, but it's slower:
 .aemail {
   font-size: 40px;
   font-weight: 300;
-  color: #ffffff;
+  color: #C78484;
 
 }
 
 .aemail:hover {
-    color: #58B02D;
+    color: #1FB9AA;
     text-shadow: none;
     text-decoration: none;
 }
 
 
 .lefttitle {
-  text-color: #1FB9AA;
+  color: #CEB882;
   text-transform: none;
+  font-weight: 300;
 }
 
+.contact2 {
+  color:#C78484;
+}
+
+.h6a {
+  font-weight: 900;
+  text-transform: uppercase;
+}
