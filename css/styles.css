@@ -30,9 +30,9 @@ h4 {
 
 h5 {
   font-size: 15px;
-  color: #58B02D;
+  color: ##C78484;
   text-transform: uppercase;
-  font-weight: 500; }
+  font-weight: 800; }
 
 h6 {
   font-size: 24px;
@@ -87,10 +87,10 @@ h6 {
   margin-right: 20px; }
 
 section.intro, section.features-extra, section.sign-up {
-  background: #fff; }
+  background: #000000; }
 
 section.features, section.blog-intro, section.blog {
-  background: #000000; }
+  background: #ffffff; }
 
 /* ==========================================================================
 Global Styles
@@ -1300,5 +1300,6 @@ you can use the generic selector below, but it's slower:
 
 .lefttitle {
   text-color: #1FB9AA;
+  text-transform: none;
 }
 
