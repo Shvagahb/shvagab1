@@ -776,7 +776,7 @@ To top
 Footer
 ========================================================================== */
 footer {
-  background-color: #000000;
+  background: linear-gradient(#1D1D1D, black 60%);
   position: relative; }
   footer p {
     color: #ACB1B4;
