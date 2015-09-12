@@ -15,8 +15,8 @@ h1 {
   font-size: 60px; }
 
 h2 {
-  font-size: 40px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 200;
   color: #ffffff; }
 
 h3 {
@@ -29,15 +29,24 @@ h4 {
   color: #ffffff; }
 
 h5 {
-  font-size: 15px;
-  color: #C78484;
-  text-transform: uppercase;
-  font-weight: 800; }
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: #fff; 
+  margin-top: 0;
+
+}
 
 h6 {
   font-size: 27px;
   margin-bottom: 20px;
-  color: #1FB9AA; }
+  color: #fff; }
+
+
+
+/*h6 {
+  font-size: 27px;
+  margin-bottom: 20px;
+  color: #1FB9AA; }*/
 
 
 .btn {
@@ -1288,12 +1297,12 @@ you can use the generic selector below, but it's slower:
 .aemail {
   font-size: 40px;
   font-weight: 300;
-  color: #C78484;
+  color: #fff;
 
 }
 
 .aemail:hover {
-    color: #1FB9AA;
+    color: #CEB882;
     text-shadow: none;
     text-decoration: none;
 }
@@ -1313,3 +1322,28 @@ you can use the generic selector below, but it's slower:
   font-weight: 900;
   text-transform: uppercase;
 }
+
+.nopadding {
+margin-top: -197px;
+}
+
+
+.awesomefonts {
+font-size: -webkit-xxx-large;
+
+}
+    
+.readmore {
+  background-color: #1d1d1d;
+  margin-top: -8%;
+  margin-bottom: 1%;
+
+}
+.readmore1{
+  margin-top: -150px;
+}
+    
+
+/*c9cba3
+ffe1a8
+e26d5c*/
