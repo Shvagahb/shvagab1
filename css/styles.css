@@ -88,10 +88,10 @@ h6 {
   margin-right: 20px; }
 
 section.intro, section.features-extra, section.sign-up {
-  background: #fff; }
+  background: linear-gradient(black, #1d1d1d 49%); }
 
 section.features, section.blog-intro, section.blog {
-  background: #ffffff; }
+  background: #1d1d1d; }
 
 /* ==========================================================================
 Global Styles
