@@ -130,7 +130,7 @@ a {
 
 a:hover, a:focus {
   color: #000000;
-  text-shadow: 1px 1px 2px white;
+  /*text-shadow: 1px 1px 2px white;*/
   text-decoration: none; }
 
 body {
@@ -1349,6 +1349,10 @@ font-size: -webkit-xxx-large;
 }
 .cursorOn:hover {
    color:#CEB882;
+}
+
+.imgwidth{
+  width:100%;
 }
 /*c9cba3
 ffe1a8
