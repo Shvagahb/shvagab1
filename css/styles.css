@@ -1342,7 +1342,10 @@ font-size: -webkit-xxx-large;
 .readmore1{
   margin-top: -150px;
 }
-    
+
+.cursorOn {
+  cursor: pointer;
+}
 
 /*c9cba3
 ffe1a8
