@@ -6,5 +6,10 @@ $(function(){ /* to make sure the script runs after page load */
         $(this).parents('.item').find('.more_text').toggle(); /* show the .more_text span */
 
     });
+var x = document.getElementsByClassName("h6a");
+console.log(x);    
+// var brk = document.createElement('br');
+// var parent = document.getElementById('grad');
+// parent.insertAfter(brk, parent.firstChild);
 
 });
