@@ -14,14 +14,8 @@ $(function(){ /* to make sure the script runs after page load */
 				x[i].innerHTML += "<br>";
 			}
 		}
-	}else {
-		console.log("else ran");
-		for(i=3; i<11; i++) {
-			console.log("forelseran");
-			x[i].innerHTML.replace(breakString, " "); //fix this to remove br's
-		}
 	}
-    
+
 var x = document.getElementsByClassName("h6a");
 var breakString = "<br>";
 
