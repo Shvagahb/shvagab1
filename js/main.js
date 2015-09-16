@@ -7,15 +7,13 @@ $(function(){ /* to make sure the script runs after page load */
 
     });
 var x = document.getElementsByClassName("h6a");
+var breakString = "<br>";
 
 window.onresize = function(event) {
-console.log(window.innerWidth);   
 	if(window.innerWidth < 662) {
-console.log("testifblock");
-		for(i=4; i<11; i++) {
-			console.log("testforloop");
+		for(i=3; i<11; i++) {
 			if(i>3 && i<9) {
-				console.log("testif2nd");
+				console.log(x[i].innerHTML.indexOf(breakString));
 				x[i].innerHTML += "<br>";
 			}
 		}
