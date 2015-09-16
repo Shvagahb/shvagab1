@@ -1354,6 +1354,10 @@ font-size: -webkit-xxx-large;
 .imgwidth{
   width:100%;
 }
+
+.designleft{
+  padding-left: 0px;
+}
 /*c9cba3
 ffe1a8
 e26d5c*/
