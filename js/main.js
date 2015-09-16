@@ -16,7 +16,7 @@ console.log("testifblock");
 			console.log("testforloop");
 			if(i>3 && i<9) {
 				console.log("testif2nd");
-				x[i].innerHTML + "<br>";
+				x[i].innerHTML += "<br>";
 			}
 		}
 	}
