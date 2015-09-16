@@ -18,7 +18,6 @@ window.onresize = function(event) {
 				x[i].innerHTML += "<br>";
 			}
 		}
-	}
 	}else {
 		console.log("else ran");
 		for(i=3; i<11; i++) {
