@@ -7,6 +7,7 @@ $(function(){ /* to make sure the script runs after page load */
 
     });
 var x = document.getElementsByClassName("h6a");
+console.log(x);
 var breakString = "<br>";
 
 window.onresize = function(event) {
