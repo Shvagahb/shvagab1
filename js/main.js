@@ -11,9 +11,11 @@ var x = document.getElementsByClassName("h6a");
 window.onresize = function(event) {
 console.log(window.innerWidth);   
 	if(window.innerWidth < 662) {
-
+console.log("testifblock");
 		for(i=4; i<11; i++) {
+			console.log("testforloop");
 			if(i>3 && i<9) {
+				console.log("testif2nd");
 				x[i].innerHTML + "<br>";
 			}
 		}
