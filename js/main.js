@@ -10,7 +10,7 @@ var x = document.getElementsByClassName("h6a");
 
 window.onresize = function(event) {
 console.log(window.innerWidth);   
-	if(window.innerWidth < 441) {
+	if(window.innerWidth < 662) {
 
 		for(i=4; i<11; i++) {
 			if(i>3 && i<9) {
