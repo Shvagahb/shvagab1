@@ -17,7 +17,7 @@ window.onresize = function(event) {
 	// 		}
 	// 	}
 	// }
-			console.log(x); 
+			console.log("snoop drizzlely"); 
    
 };
 
