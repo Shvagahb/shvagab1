@@ -12,8 +12,8 @@ var breakString = "<br>";
 window.onresize = function(event) {
 	if(window.innerWidth < 662) {
 		for(i=3; i<11; i++) {
-			if(i>3 && i<9) {
-				console.log(x[i].innerHTML.indexOf(breakString));
+			if(i>3 && i<9 && x[i].innerHTML.indexOf(breakString) == -1) {
+				console.log("if2nd");
 				x[i].innerHTML += "<br>";
 			}
 		}
