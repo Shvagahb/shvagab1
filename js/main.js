@@ -6,15 +6,19 @@ $(function(){ /* to make sure the script runs after page load */
         $(this).parents('.item').find('.more_text').toggle(); /* show the .more_text span */
 
     });
-var x = document.getElementsByClassName("h6a");
-// for(i=0; i>3, i++) {
-// 	if(x.length>3) {
-// 		parent.insertAfter(brk, parent.firstChild);
-// 	}
-// }
-console.log(x.length);    
-// var brk = document.createElement('br');
-// var parent = document.getElementById('grad');
-// parent.insertAfter(brk, parent.firstChild);
+
+window.onresize = function(event) {
+   
+	// if(window.innerWidth < 441) {
+	// 	var x = document.getElementsByClassName("h6a");
+	// 	for(i=0; x.length<11; i++) {
+	// 		if(i>3) {
+	// 			x[i].innerHTML = text;
+	// 		}
+	// 	}
+	// }
+			console.log(x); 
+   
+};
 
 });
