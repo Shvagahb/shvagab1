@@ -7,7 +7,12 @@ $(function(){ /* to make sure the script runs after page load */
 
     });
 var x = document.getElementsByClassName("h6a");
-console.log(x);    
+// for(i=0; i>3, i++) {
+// 	if(x.length>3) {
+// 		parent.insertAfter(brk, parent.firstChild);
+// 	}
+// }
+console.log(x.length);    
 // var brk = document.createElement('br');
 // var parent = document.getElementById('grad');
 // parent.insertAfter(brk, parent.firstChild);
