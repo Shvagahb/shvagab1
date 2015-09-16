@@ -9,16 +9,16 @@ $(function(){ /* to make sure the script runs after page load */
 var x = document.getElementsByClassName("h6a");
 
 window.onresize = function(event) {
-   
-	// if(window.innerWidth < 441) {
+console.log(window.innerWidth);   
+	if(window.innerWidth < 441) {
 
-	// 	for(i=4; i<11; i++) {
-	// 		if(i>3) {
-	// 			x[i].innerHTML = text;
-	// 		}
-	// 	}
-	// }
-			console.log(x); 
+		for(i=4; i<11; i++) {
+			if(i>3 && i<9) {
+				x[i].innerHTML + "<br>";
+			}
+		}
+	}
+			// console.log(x); 
    
 };
 
