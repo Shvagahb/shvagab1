@@ -19,6 +19,13 @@ window.onresize = function(event) {
 			}
 		}
 	}
+	}else {
+		console.log("else ran");
+		for(i=3; i<11; i++) {
+			console.log("forelseran");
+			x[i].innerHTML.replace('<br>', '');
+		}
+	}
 			// console.log(x); 
    
 };
