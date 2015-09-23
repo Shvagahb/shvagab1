@@ -327,23 +327,19 @@
 		.logofit{
 			width: 291px;
 		}
-	}
-	@media (max-width:630px)(min-width: 321) {
-		.logofit{
-			width: 328px;
-		}
-	}
-
-	@media(max-width:320px){
 		.nopadding{
 			margin-top: -99px;
 		}
-		
 	}
-	@media(max-width:630px)(min-width: 321){
+	@media (max-width:360px)(min-width: 321) {
+		.logofit{
+			width: 328px;
+
+		}
 		.nopadding{
 			margin-top: -113px;
-		}
-		
 	}
+}
+	
+
 	
