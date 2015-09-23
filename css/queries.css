@@ -328,3 +328,11 @@
 			width: 291px;
 		}
 	}
+
+	@media(max-width:320px){
+		.subtextdwn{
+			margin-top: -99px;
+		}
+		
+	}
+	
