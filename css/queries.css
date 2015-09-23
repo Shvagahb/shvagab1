@@ -335,13 +335,13 @@
 	}
 
 	@media(max-width:320px){
-		.subtextdwn{
+		.nopadding{
 			margin-top: -99px;
 		}
 		
 	}
 	@media(max-width:630px)(min-width: 321){
-		.subtextdwn{
+		.nopadding{
 			margin-top: -113px;
 		}
 		
