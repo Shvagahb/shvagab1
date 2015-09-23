@@ -316,12 +316,15 @@
 			display: none;
 		}
 
-	}
+	
 
 	@media screen and (max-width:320px) {
-		.logofit{
-			width: 291px;
+		
 	}
 
-}
-	
+
+	@media (max-width:320px) {
+		.logofit{
+			width: 291px;
+		}
+	}
