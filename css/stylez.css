@@ -378,7 +378,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("http://i.imgur.com/JX4j7H0.jpg") center center;
+  background-color: #197278;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -1365,6 +1365,8 @@ font-size: -webkit-xxx-large;
 .backgroundblog{
   background-color:#197278;
   color:#197278;
+  padding-top: 44px;
+    padding-bottom: 23px;
 }
 .fontnewpage {
   font-weight: 500em;

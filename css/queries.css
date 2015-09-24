@@ -322,15 +322,13 @@
 	
 
 
-	@media (max-width:361px) {
+	@media (max-width:347px) {
 		.logofit{
 			width: 291px;
 		}
-		.nopadding{
-			margin-top: -99px;
-		}
+		
 	}
-	/*@media (max-width:360px)(min-width:321px) {
+	@media (max-width:361px) {
 		.logofit{
 			width: 291px;
 
@@ -338,7 +336,7 @@
 		.nopadding{
 			margin-top: -99px;
 	}
-}*/
+}
 	
 
 	
