@@ -138,8 +138,15 @@ body {
   font-weight: 300;
   color: rgba(91, 178, 47);
   scrollbar-face-color: #b46868;
+  -webkit-text-size-adjust: 100%; 
+  height: 100%;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
-  -webkit-text-size-adjust: 100%; }
+
+
+ 
 
 ul, ol {
   margin: 0;
@@ -1374,3 +1381,10 @@ font-size: -webkit-xxx-large;
   color:#F7DBA7;
   
 } 
+
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
