@@ -121,7 +121,7 @@ Global Styles
 
 a {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 27px;
   font-weight: bold;
   text-shadow: 1px 1px 2px black;
   -webkit-transition-timing-function: ease;
@@ -1304,6 +1304,13 @@ you can use the generic selector below, but it's slower:
   text-align: right;
 }
 
+.alinks{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 27px;
+
+}
+
 .aemail {
   font-size: 40px;
   font-weight: 300;
@@ -1405,6 +1412,7 @@ hr.style-eight {
 }
 hr.style-eight:after {
     content: "§";
+    width: 
     display: inline-block;
     position: relative;
     top: -0.7em;
