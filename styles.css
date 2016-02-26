@@ -119,7 +119,7 @@ body {
   /*background-color: #FE9581;*/
   background: -webkit-linear-gradient(left, #FE9581 50%, #fff 50%);
   width: 100%;
-  height: 54em;
+  height: 100vh;
   margin-bottom: -3.2em;
   z-index: -1;
   padding-top: 1em;
@@ -129,14 +129,14 @@ body {
 .container2 {
   background-image: url(pics/treesTeal.jpg);
   width: 100%;
-  height: 42em;
+  height: 100vh;
   z-index: -1;
 }
 
 .container3 {
   background-color: #83526D;
   width: 100%;
-  height: 45em;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -247,6 +247,8 @@ body {
 .about {
     text-align: end;
     margin-right: 22em;
+    line-height:1.8em;
+    margin-top:-5em;
 }
 .fadeInBlock {
     opacity:0;
@@ -493,6 +495,9 @@ img {
   padding-left: 30px;
   padding-bottom: 30px;
 }
+.woah{
+  visibility: hidden;
+}
 
 /* Desktop and bigger */
 @media (min-width: 960px) {
@@ -619,14 +624,65 @@ img {
 
 
 
-/*@media screen and (min-width: 480px) {
-    .header1 {
-        visability : hidden;
+@media (max-width:500px){
+  h2{
+    font-size: 1em;
+    
+     }
+
+  h1{
+      font-size: 1em;
     }
-    h1 {
-      font-size: 1px;
+
+  .headerLogo{
+    visibility: hidden;
+  }
+  .container2{
+    height: 15em;
+  }
+  .container1{
+    background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
+  }
+  .col-1-1{
+    width: 50%;
+    height: 50%;
+    float: none; 
+    color: #FE9581;
+  }
+  .col-1-1{
+    width: 50%;
+    height: 50%;
+    float: none; 
+  }
+  .about{
+    color: white;
+    margin-top: -60em;
+    line-height: 0em;
+  }
+  .bianca{
+    color: #FFFFFF;
+    margin-left: -34em;
+  }
+  .container4{
+    visibility: hidden;
+  }
+  .woah{
+    visibility: visible;
+    color: white;
+  }
+  i{
+    color: white;
+  }
+  nav{
+    visibility: hidden;
+  }
+  }
+
+
+
+
+/*@media (max-width:499px){
+  .header1{
+    visibility: hidden;
     }
-}
-@media screen and (max-widthpx) {
-  
-}
+  }*/
