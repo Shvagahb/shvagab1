@@ -51,6 +51,11 @@ a {
   color: black;
 }
 
+a.h {
+font-family: 'lato', sans-serif;
+  font-size:30px;
+}
+
 li a:hover {
     background-color: #555;
     color: white;
@@ -608,4 +613,20 @@ img {
 .fa{
   font-size: xx-large;
 
+}
+
+/*media*/
+
+
+
+/*@media screen and (min-width: 480px) {
+    .header1 {
+        visability : hidden;
+    }
+    h1 {
+      font-size: 1px;
+    }
+}
+@media screen and (max-widthpx) {
+  
 }
