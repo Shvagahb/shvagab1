@@ -254,6 +254,7 @@ body {
     margin-right: 22em;
     line-height:1.8em;
     margin-top:-5em;
+    color: #FE9581;
    /* margin-left:39em;*/
 }
 .fadeInBlock {
@@ -643,6 +644,9 @@ img {
     }
 
   .headerLogo{
+    visibility: hidden;
+  }
+  header{
     visibility: hidden;
   }
   .container2{
