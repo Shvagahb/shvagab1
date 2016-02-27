@@ -96,8 +96,8 @@ var waypoint = new Waypoint({
   handler: function(direction) {
   	document.getElementById("about").style.visibility = "visible";
   	TweenMax.to(".fadeIn",3, {opacity:1});
-    TweenMax.to(".logoRight", 2, {right:'670px'});
-	TweenMax.to(".logoLeft", 2, {left:'670px'});
+    TweenMax.to(".logoRight", 2, {right:'370px'});
+	TweenMax.to(".logoLeft", 2, {left:'70px'});
   }
 })
 

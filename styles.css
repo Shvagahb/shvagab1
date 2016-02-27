@@ -206,6 +206,8 @@ body {
 
 .logoLeft{
   position: relative;
+  width: 295px !important;
+  margin-left:39em;
 }
 
 .logoLeftLess{
@@ -251,6 +253,7 @@ body {
     margin-right: 22em;
     line-height:1.8em;
     margin-top:-5em;
+   /* margin-left:39em;*/
 }
 .fadeInBlock {
     opacity:0;
@@ -663,7 +666,7 @@ img {
   }
   .bianca{
     color: #FFFFFF;
-    margin-left: -34em;
+    /*margin-left: 1em;*/
   }
   .container4{
     visibility: hidden;
