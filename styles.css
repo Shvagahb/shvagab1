@@ -278,152 +278,10 @@ body {
     }
 
 
-
-
-/* * {
-  box-sizing: boder-box;
-}
-
-body {
-  margin: 0;
-}*/
-
-/*#main {
-  position: relative;
-  z-index: 20;
-  background: #fff;
-  -webkit-transition: -webkit-transform .6s ease;
-  transition: -webkit-transform .6s ease;
-  transition: transform .6s ease;
-  transition: transform .6s ease, -webkit-transform .6s ease;
-}
-@media (min-width: 640px) {
-  #main {
-    padding: 1em;
-  }
-}
-
-.fake-section {
-  background: #eee;
-  height: 300px;
-}
-
-.tiles-a {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-}
-.tiles-a ul {
-  margin: 0;
-  padding: 0;
-}
-.tiles-a li {
-  list-style: none;
-}
-@media (min-width: 640px) {
-  .tiles-a li {
-    float: left;
-    width: 33.33%;
-  }
-}
-.tiles-a a {
-  margin: 1em;
-  display: block;
-  background: #222;
-  padding-top: 73%;
-  height: 0;
-}
-
-#aside {
- position: absolute;
-  position: relative;
- /* top: 0;
-  right: 0;
-  width: 60%;
-  height: 100%;
-  background: #eee;
- overflow-y: scroll;
-  z-index: 10;
-      top: 535%;
-    right: 0;
-    width: 60%;
-    height: 73%;
-}
-#aside img {
-  width: 100%;
-  height: auto;
-  vertical-align: top;
-}
-#aside .wrapper {
-  padding: 1em;
-}
-#aside .close {
-  width: 25px;
-  display: block;
-  position: absolute;
-  top: 1em;
-  right: 1em;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 50%;
-}
-
-.show-detail {
-  overflow: hidden;
-}
-.show-detail #main {
-  -webkit-transform: translateX(-60%);
-          transform: translateX(-60%);
-}
-
-.visually-hidden {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-}
-*/
-
-
-
-/*body {
-  margin: 0;
-}*/
-/*
-html {
-  box-sizing: border-box;
-  font-family: "Gilda Display", serif;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.5;
-}*/
-/*@media (min-width: 768px) {
-  html {
-    font-size: 12px;
-  }
-}
-@media (min-width: 960px) {
-  html {
-    font-size: 16px;
-  }
-}*/
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-/*h1, h2, h3, h4, h5, h6, p, ul, ol {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  line-height: 1.1;
-}*/
 
 img {
   border: 0 none;
@@ -432,18 +290,6 @@ img {
   vertical-align: middle;
 }
 
-/*.container {
-  width: 100%;
-  margin: 0 auto;
-}
-*/
-/* Desktop and bigger */
-/*@media (min-width: 960px) {
-  .container {
-    padding: 40px;
-  }
-}*/
-/* Micro clearfix */
 .container:before,
 .container:after {
   content: "";
@@ -642,6 +488,9 @@ img {
       font-size: 1em;
       line-height: 0px;
     }
+  img{
+    width:98vw; 
+  }
 
   .headerLogo{
     visibility: hidden;
@@ -650,7 +499,7 @@ img {
     visibility: hidden;
   }
   .container2{
-    height: 15em;
+    height: 49em;
     width: 316vw;
   }
   .container1{
@@ -702,6 +551,14 @@ img {
   }
   .experience{
     color: white;
+  }
+  .grid-cell {
+    width: 47%;
+  }
+  .grid{
+    margin-left: 5em;
+    margin: -27px;
+    padding: 85px;
   }
   }
 
