@@ -479,13 +479,15 @@ img {
 
 @media (max-width:499px){
   h2{
-    font-size: 1em;
-    line-height: 0px;
+    font-size: 3em;
+    /*line-height: 0px;*/
+    color: #FE9581 !important;
+    margin-top: 1em; 
     
      }
 
   h1{
-      font-size: 1em;
+      font-size: 3em;
       line-height: 0px;
     }
   img{
@@ -499,12 +501,14 @@ img {
     visibility: hidden;
   }
   .container2{
-    height: 49em;
+   /* height: 49em;*/
     width: 316vw;
+    height: 129em;
   }
   .container1{
     background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
     width: 316vw;
+    height: 129em; 
   }
   .col-1-1{
     width: 316vw;
@@ -530,8 +534,13 @@ img {
     /*margin-left: 1em;*/
   }
   .container4{
+    /*visibility: hidden;*/
+    /*width: 0px;
+    height: 0px;*/
+    background-color: black;
+  }
+  #contact{
     visibility: hidden;
-    width: 316vw;
   }
   .woah{
     visibility: visible;
@@ -548,17 +557,34 @@ img {
   }
   .header1{
     width: 316vw;
+    height: 129em;
   }
   .experience{
     color: white;
   }
+
   .grid-cell {
     width: 47%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+ 
   }
   .grid{
     margin-left: 5em;
     margin: -27px;
-    padding: 85px;
+    /*padding: 85px;*/
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+    .panel{
+    width: 2
+  }
+  .goDown{
+    padding-top: 1em;
   }
   }
 
