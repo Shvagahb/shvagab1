@@ -246,6 +246,7 @@ body {
 .experience{
   margin-left: 9em;
   margin-top: -2em;
+  color:#fe9581;
 }
 
 .about {
@@ -632,11 +633,13 @@ img {
 @media (max-width:499px){
   h2{
     font-size: 1em;
+    line-height: 0px;
     
      }
 
   h1{
       font-size: 1em;
+      line-height: 0px;
     }
 
   .headerLogo{
@@ -644,24 +647,29 @@ img {
   }
   .container2{
     height: 15em;
+    width: 316vw;
   }
   .container1{
     background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
+    width: 316vw;
   }
   .col-1-1{
-    width: 100%;
+    width: 316vw;
     height: 50%;
     float: none; 
     color: #FE9581;
+    
   }
-  .col-1-1{
-    width: 100%;
+  .col-1-2{
+    width: 316vw;
     height: 50%;
     float: none; 
+    color: white;
+
   }
   .about{
-    color: white;
-    margin-top: -60em;
+    color: #FE9581;
+   /* margin-top: -60em;*/
     line-height: 0em;
   }
   .bianca{
@@ -670,6 +678,7 @@ img {
   }
   .container4{
     visibility: hidden;
+    width: 316vw;
   }
   .woah{
     visibility: visible;
@@ -680,6 +689,15 @@ img {
   }
   ul{
     visibility: hidden;
+  }
+  .container5{
+    width: 316vw;
+  }
+  .header1{
+    width: 316vw;
+  }
+  .experience{
+    color: white;
   }
   }
 
