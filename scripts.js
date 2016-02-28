@@ -109,12 +109,12 @@ $(function(){
 
 
 var tween = TweenMax.to('#work', 5, {
-	backgroundColor:"rgb(21, 12, 15);"
+	backgroundColor:"rgba(18, 10, 13)"
 });
 
 var scene = new ScrollMagic.Scene({
 	triggerElement: '#work',
-	duration: 5294
+	duration: 700
 })
 .setTween(tween)
 .addTo(scrollMagicController);

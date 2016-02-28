@@ -238,23 +238,45 @@ body {
 .col-1-1 {
   width: 50%;
   float: left;
+  /*background-color: #FE9581; */
 }
 .col-1-2 {
   width: 50%;
+  float: left;
+  /*background-color: #FE9581; */
+
+}
+.col-2-1{
+  width: 50%;
   float: right;
+  margin-top: 0.3em;
+  /*background-color: #fff;*/ 
+
+}
+.col-2-2{
+  width: 50%;
+  float: right;
+  margin-top: 0.3em;
+  /*background-color: #fff; */
+
 }
 .experience{
-  margin-left: 9em;
-  margin-top: -2em;
-  color:#fe9581;
+  margin-left: .3em;
+  line-height:1.8em;
+  /*margin-top: -2em;*/
+  color:black;
+  font-weight: 0;
+  font-size: 1em;
 }
 
 .about {
     text-align: end;
-    margin-right: 22em;
+    margin-right: .8em;
     line-height:1.8em;
-    margin-top:-5em;
-    color: #FE9581;
+    margin-top:2em;
+    color:black;
+  font-weight: 0;
+  font-size: 1em;
    /* margin-left:39em;*/
 }
 .fadeInBlock {
@@ -479,9 +501,9 @@ img {
 
 @media (max-width:499px){
   h2{
-    font-size: 3em;
+    font-size: 1em;
     /*line-height: 0px;*/
-    color: #FE9581 !important;
+    color: #FE9581;
     margin-top: 1em; 
     
      }
@@ -500,8 +522,8 @@ img {
   header{
     visibility: hidden;
   }
-  .container2{
-   /* height: 49em;*/
+ /* .container2{
+  
     width: 316vw;
     height: 129em;
   }
@@ -509,30 +531,46 @@ img {
     background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
     width: 316vw;
     height: 129em; 
-  }
-  .col-1-1{
-    width: 316vw;
-    height: 50%;
+  }*/
+
+  /*.col-1-2{
+    width: 100% !important;
+    height: 129em;
     float: none; 
     color: #FE9581;
     
+  }*/
+  .col-2-2{
+    width: 100% !important;
+    height: 129em;
+    float: none; 
+    font-color: black;
+
   }
-  .col-1-2{
-    width: 316vw;
-    height: 50%;
+  .col-2-1{
+    width: 100% !important;
+    height: 129em;
+    float: none; 
+    font-color: black;
+    
+  }
+  /*.col-1-1{
+    width: 100% !important;
+    height: 129em;
     float: none; 
     color: white;
 
-  }
+  }*/
   .about{
-    color: #FE9581;
-   /* margin-top: -60em;*/
-    line-height: 0em;
+    margin-right: -11.2em;
+    margin-top: 2em;
+    color: black !important;
   }
   .bianca{
-    color: #FFFFFF;
+    display: none;
     /*margin-left: 1em;*/
   }
+
   .container4{
     /*visibility: hidden;*/
     /*width: 0px;
@@ -553,14 +591,21 @@ img {
     visibility: hidden;
   }
   .container5{
-    width: 316vw;
+    width: 100%;
   }
-  .header1{
-    width: 316vw;
+  .container1{
+    background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
+  }
+ .header1{
+    width: 100%;
     height: 129em;
   }
   .experience{
-    color: white;
+    color: black;
+    margin-left: 0em;
+    margin-top: 7.3em;
+    line-height: 1.52;
+    font-size: 3em;
   }
 
   .grid-cell {
@@ -579,12 +624,17 @@ img {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+    width: 
   }
     .panel{
     width: 2
   }
   .goDown{
     padding-top: 1em;
+    color: black;
+  }
+  .rainbow-wordmark{
+    visibility: hidden;
   }
   }
 
