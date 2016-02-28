@@ -35,7 +35,7 @@ ul {
     text-transform: uppercase;
     z-index: 4;
 
-    
+
 
 }
 
@@ -71,7 +71,7 @@ body {
     width: 100%;
     min-height: auto;
     color: orange;
-    background-image: url(../pics/flower.jpeg);
+    background-image: url(flower.jpeg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -186,17 +186,17 @@ body {
 
 .header
 {
-    position: fixed; 
+    position: fixed;
 }
 .content
 {
-    margin-top: 100px;       
+    margin-top: 100px;
 }​
 
 .headerLogo {
-    background-color: red; 
+    background-color: red;
     width: 1085px;
-    height: 1000px; 
+    height: 1000px;
     padding: 83px 11px 0px 10px;
 }
 
@@ -224,7 +224,7 @@ body {
       width: 25.9em !important;
 }
 .proj1 {
-     
+
 }
 
 /*.proj1:hover {
@@ -250,7 +250,7 @@ body {
   width: 50%;
   float: right;
   margin-top: 0.3em;
-  /*background-color: #fff;*/ 
+  /*background-color: #fff;*/
 
 }
 .col-2-2{
@@ -346,7 +346,7 @@ img {
   list-style: none;
   /* Offset left padding of first grid cell in each row */
   margin-left: -30px;
- /* margin-right: -19.45em;*/ 
+ /* margin-right: -19.45em;*/
 }
 
 /*
@@ -504,8 +504,8 @@ img {
     font-size: 3em;
     /*line-height: 0px;*/
     color: #FE9581;
-    margin-top: 1em; 
-    
+    margin-top: 1em;
+
      }
 
   h1{
@@ -513,7 +513,7 @@ img {
       line-height: 0px;
     }
   img{
-    width:98vw; 
+    width:98vw;
   }
 
   .headerLogo{
@@ -523,41 +523,41 @@ img {
     visibility: hidden;
   }
  /* .container2{
-  
+
     width: 316vw;
     height: 129em;
   }
   .container1{
     background:-webkit-linear-gradient(top, #FE9581 50%, #fff 50%);
     width: 316vw;
-    height: 129em; 
+    height: 129em;
   }*/
 
   /*.col-1-2{
     width: 100% !important;
     height: 129em;
-    float: none; 
+    float: none;
     color: #FE9581;
-    
+
   }*/
   .col-2-2{
     width: 100% !important;
     height: 129em;
-    float: none; 
+    float: none;
     font-color: black;
 
   }
   .col-2-1{
     width: 100% !important;
     height: 129em;
-    float: none; 
+    float: none;
     font-color: black;
-    
+
   }
   /*.col-1-1{
     width: 100% !important;
     height: 129em;
-    float: none; 
+    float: none;
     color: white;
 
   }*/
@@ -622,7 +622,7 @@ img {
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
- 
+
   }
   .grid{
     margin-left: 22em;
@@ -643,7 +643,7 @@ img {
     list-style: none;
   /* Offset left padding of first grid cell in each row */
     /*margin-left: -30px;*/
-     
+
   }
     .panel{
     width: 2

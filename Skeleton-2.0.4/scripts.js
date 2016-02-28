@@ -11,7 +11,7 @@ var canvasHeight = canvas.height;
 
 var whiteImg = new Image();
 whiteImg.onload = onWhiteImgLoad;
-whiteImg.src = 'pics/bi.png';
+whiteImg.src = 'bi.png';
 
 function onWhiteImgLoad() {
   setColorCanvas( 'red', '#AA333F' );
@@ -96,8 +96,8 @@ var waypoint = new Waypoint({
   handler: function(direction) {
   	document.getElementById("about").style.visibility = "visible";
   	TweenMax.to(".fadeIn",3, {opacity:1});
-    TweenMax.to(".logoRight", 2, {right:'370px'});
-	TweenMax.to(".logoLeft", 2, {left:'70px'});
+    TweenMax.to(".AboutTxt", 2, {x:-330});
+	TweenMax.to(".BiancaTxt", 2, {x:330});
   }
 })
 
@@ -126,4 +126,3 @@ var scene = new ScrollMagic.Scene({
 // TweenMax.to(".logoLeft", 2, {left:'670px'});
 // TweenMax.to(".logoLeftLess", 1, {left:'320px'});
 // TweenMax.to(".logoLeftLess1", 1, {left:'20px'});
-

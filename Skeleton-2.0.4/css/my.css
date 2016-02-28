@@ -1,0 +1,129 @@
+div.container div.row div.headerLogo {
+  padding: 83px 11px 0px 10px;
+  /*position: fixed;*/
+  z-index: 3;
+}
+
+div.row div.headerLogo img.headerImg {
+  width: 32%;
+  padding-left: 1em;
+  padding-top: 0.5;
+}
+
+div.container div.row div.menu {
+  float: right;
+  margin-top: 17px;
+}
+
+div.container div.row div.menu ul  > li {
+  display: inline;
+}
+
+div.container div.row div.menu ul {
+  padding: 27px 33px 25px 39px;
+  list-style-type: none;
+  letter-spacing: 0.3em;
+  word-spacing: 1em;
+  background-color: white;
+  text-transform: uppercase;
+}
+
+div.container div.row div.menu ul a {
+  text-decoration: none;
+}
+
+
+div.container div.row div.rainbow-wordmark canvas.rainbowAlign {
+    margin-left: 3em;
+    margin-top: 1em;
+    /*z-index:4;*/
+
+}
+
+div.container div.row div.rainbow-wordmark img.whiteLogoAlign {
+    position: absolute;
+    top: 17px;
+    left: 46px;
+}
+
+div.container div#about div.About {
+    background-color: #FE9581;
+}
+
+div.container div.row div#about div.About h1.aboutTxt {
+    color: #FFFFFF;
+}
+
+div.container div.headerBg {
+    /*position: relative;*/
+    width: 100%;
+    min-height: auto;
+    /*color: orange;*/
+    background-image: url(flower.jpeg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 40em;
+}
+
+/*delete*/
+div#work {
+  height: 1000px;
+}
+
+div.container div#about {
+  opacity: 0.1;
+}
+
+h1 {
+  font-family: 'lato', sans-serif;
+  font-size: 75px;
+  font-weight: 900;
+}
+
+div.AboutTxt {
+  left: 100%;
+}
+
+div.BiancaTxt {
+  right: 50%;
+}
+
+div.BiancaTxt h1 {
+  color:#FE9581;
+}
+
+div.AboutTxt h1 {
+  color:#FFFFFF;
+}
+
+div.Bianca {
+  height: 30em;
+}
+
+div.About {
+  height: 30em;
+}
+
+
+div.BiancaBlurb {
+  float: left;
+  text-align: left;
+  margin-left: 65px;
+}
+
+div.Bianca h4 {
+  color: #FE9581;
+}
+
+div.About h4 {
+  color: white;
+}
+
+div.AboutBlurb {
+  float: right;
+  text-align: right;
+  margin-right: 65px;
+}
