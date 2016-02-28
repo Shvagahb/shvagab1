@@ -642,7 +642,7 @@ img {
     padding: 0;
     list-style: none;
   /* Offset left padding of first grid cell in each row */
-    /*margin-left: -30px;*/
+    margin-left: -30px;
      
   }
     .panel{
