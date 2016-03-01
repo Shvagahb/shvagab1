@@ -20,7 +20,7 @@ div.container div.row div.menu ul  > li {
 }
 
 div.container div.row div.menu ul {
-  padding: 27px 33px 25px 39px;
+  /*padding: 27px 33px 25px 39px;*/
   list-style-type: none;
   letter-spacing: 0.3em;
   word-spacing: 1em;
@@ -48,10 +48,12 @@ div.container div.row div.rainbow-wordmark img.whiteLogoAlign {
 
 div.container div#about div.About {
     background-color: #FE9581;
+    height: 60em;
 }
 
 div.container div.row div#about div.About h1.aboutTxt {
     color: #FFFFFF;
+    height: 60em;
 }
 
 div.container div.headerBg {
@@ -67,6 +69,10 @@ div.container div.headerBg {
     -o-background-size: cover;
     height: 40em;
 }
+/*div.headerBg {
+  position: fixed;
+  z-index: -1;
+}*/
 
 /*delete*/
 div#work {
@@ -127,3 +133,29 @@ div.AboutBlurb {
   text-align: right;
   margin-right: 65px;
 }
+.ok{
+    padding: 11px 12px 12px 20px;
+}
+.ok:hover{
+  /*width: 60%;
+  height: 60%;*/
+  z-index: 50;
+  opacity: 0;
+  border: 10px solid #000;
+  box-shadow: 0 0 30px rgba(0,0,0,.15);
+
+}
+/*#overlay    {  background:rgba(0,0,0,.75);
+               text-align:center;
+               padding:45px 0 66px 0;
+               opacity:0;
+               -webkit-transition: opacity .25s ease;
+-moz-transition: opacity .25s ease;}
+
+#box:hover #overlay {
+               opacity:1;}
+
+#plus       {  font-family:Helvetica;
+               font-weight:900;
+               color:rgba(255,255,255,.85);
+               font-size:96px;}*/
