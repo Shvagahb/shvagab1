@@ -137,12 +137,17 @@ div.AboutBlurb {
 .ok{
     padding: 11px 12px 12px 20px;
     z-index: 2;
+    margin-left: -0.3em;
+    margin-top: 1em;
+    margin-right: 0em;
+    margin-bottom: 0em;
 }
 .ok:hover {
   /*width: 60%;
   height: 60%;*/
   z-index: 50;
   opacity: 1;
+  padding-bottom: 0;
   /*width: 100vh;*/
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
@@ -167,6 +172,12 @@ div.AboutBlurb {
   margin-top: -14em;
   display: none;
   color: white;
+  color:white;
+  text-shadow: 2px 2px 15px #000;
+  /*font-weight:600;*/
+  font-family: lato;
+  background-color:rgba(0, 0, 0, 0.5);
+
   /*background-color: rgba(200, 54, 54, 0.5);*/
 
 
@@ -199,4 +210,24 @@ p{
 .techText{
   font-size: 60px;
   font-weight: 900;
+}
+.imgPaddingTop{
+  margin-top: 4em;
+}
+.imgPaddingLeft{
+  margin-left:3em;
+}
+h2.overlay h2{
+  color:white;
+  text-shadow: 2px 2px 15px #000;
+  font-weight:600;
+  font-family: lato;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+p.overlay{
+  color:white;
+  text-shadow: 2px 2px 15px #000;
+  /*font-weight:600;*/
+  font-family: lato;
+  background-color:rgba(0, 0, 0, 0.5);
 }

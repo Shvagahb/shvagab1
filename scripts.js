@@ -97,7 +97,7 @@ var waypoint = new Waypoint({
   	document.getElementById("about").style.visibility = "visible";
   	TweenMax.to(".fadeIn",3, {opacity:1});
     TweenMax.to(".AboutTxt", 2, {x:-330});
-	TweenMax.to(".BiancaTxt", 2, {x:330});
+	  TweenMax.to(".BiancaTxt", 2, {x:330});
   }
 })
 
@@ -114,15 +114,10 @@ var tween = TweenMax.to('#work', 5, {
 
 var scene = new ScrollMagic.Scene({
 	triggerElement: '#work',
-	duration: 900
+	duration: 2300
 })
 .setTween(tween)
 .addTo(scrollMagicController);
 
 
 });
-
-// TweenMax.to(".logoRight", 2, {right:'670px'});
-// TweenMax.to(".logoLeft", 2, {left:'670px'});
-// TweenMax.to(".logoLeftLess", 1, {left:'320px'});
-// TweenMax.to(".logoLeftLess1", 1, {left:'20px'});

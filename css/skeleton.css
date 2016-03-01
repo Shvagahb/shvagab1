@@ -38,6 +38,7 @@
   background-image:url(../pics/footer3.png);
   background-size:cover;
   height: 47em;
+  background-position-x: 0;
 }
 .ok{
   opacity: 1;
@@ -180,11 +181,11 @@ p {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   color: black;
-  style:overline;
+  font-style:none !important;
   }
 a:hover {
   color: white;
-  style:overline;
+  font-style: none !important;
  }
 
 
@@ -522,6 +523,9 @@ there.
   ul{
     display: block;;
   }
+}
+.container5{
+  background-position-x: 0;
 }
 }
 
