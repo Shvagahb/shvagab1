@@ -483,8 +483,12 @@ there.
     display: none;
   }
   .AboutBlurb{
-    margin-top: 11em;
+    margin-top: 2em;
 
+  }
+  .About{
+    margin-left: 0em;
+    height: 30em;
   }
   #animation{
     display: none;
@@ -492,6 +496,12 @@ there.
   ul{
     display: none;
   }
+  .container5{
+    background-position-x: -21em;
+  }
+.techText{
+  font-size: 60px;
+}
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -534,8 +544,16 @@ there.
     display: none;
   }
   .AboutBlurb{
-    margin-top: 11em;
+    margin-top: 2em;
+    margin-right: 1em;
 
+  }
+  .About{
+    margin-left: 0em;
+    height: 30em;
+  }
+  div.container div#about div.About{
+    height: 30em !important;
   }
   #animation{
     display: none;
@@ -547,4 +565,7 @@ there.
     background-position-x: -21em;
   }
 
+/*.techText{
+  font-size: 60px;
+}*/
 }
