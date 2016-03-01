@@ -475,10 +475,45 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .rainbow-wordmark__image {
+    display: none;
+  }
+  .AboutTxt{
+    display: none;
+  }
+  .AboutBlurb{
+    margin-top: 11em;
+
+  }
+  #animation{
+    display: none;
+  }
+  ul{
+    display: none;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .rainbow-wordmark__image {
+    display: block;;
+  }
+  .AboutTxt{
+    display: block;;
+  }
+  /*.AboutBlurb{
+    margin-top: 11em;
+
+  }*/
+  #animation{
+    display: block;;
+  }
+  ul{
+    display: block;;
+  }
+}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
@@ -488,3 +523,28 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+@media (max-width:499px) {
+  .rainbow-wordmark__image {
+    display: none;
+  }
+  .AboutTxt{
+    display: none;
+  }
+  .AboutBlurb{
+    margin-top: 11em;
+
+  }
+  #animation{
+    display: none;
+  }
+  ul{
+    display: none;
+  }
+  .container5{
+    background-position-x: -21em;
+  }
+
+}

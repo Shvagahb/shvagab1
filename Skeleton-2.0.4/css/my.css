@@ -76,7 +76,7 @@ div.container div.headerBg {
 
 /*delete*/
 div#work {
-  height: 1000px;
+  height: 375vh;
 }
 
 div.container div#about {
@@ -106,18 +106,18 @@ div.AboutTxt h1 {
 }
 
 div.Bianca {
-  height: 30em;
+  height: 32em;
 }
 
 div.About {
-  height: 30em;
+  height: 32em;
 }
 
 
 div.BiancaBlurb {
   float: left;
   text-align: left;
-  margin-left: 65px;
+  margin-left: 2em;
 }
 
 div.Bianca h4 {
@@ -131,31 +131,52 @@ div.About h4 {
 div.AboutBlurb {
   float: right;
   text-align: right;
-  margin-right: 65px;
+  margin-right: 2em;
 }
 .ok{
     padding: 11px 12px 12px 20px;
+    z-index: 2;
 }
 .ok:hover{
   /*width: 60%;
   height: 60%;*/
   z-index: 50;
-  opacity: 0;
-  border: 10px solid #000;
-  box-shadow: 0 0 30px rgba(0,0,0,.15);
+  opacity: 1;
+  /*width: 100vh;*/
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  -webkit-transform: scale(1.5);
+	transform: scale(1.5);
+  -webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+
+  /*border: 10px solid #000;*/
+  /*box-shadow: 0 0 30px rgba(0,0,0,.15);*/
 
 }
-/*#overlay    {  background:rgba(0,0,0,.75);
-               text-align:center;
-               padding:45px 0 66px 0;
-               opacity:0;
-               -webkit-transition: opacity .25s ease;
--moz-transition: opacity .25s ease;}
+.overlay{
 
-#box:hover #overlay {
-               opacity:1;}
+  visibility: hidden;
+  padding-bottom: 10em;
+  margin-top: -14em;
+  display: none;
+  /*background-color: rgba(200, 54, 54, 0.5);*/
 
-#plus       {  font-family:Helvetica;
-               font-weight:900;
-               color:rgba(255,255,255,.85);
-               font-size:96px;}*/
+
+}
+.ok:hover .overlay{
+  margin-top: -14em;
+  text-align: center;
+  padding-bottom: 10em;
+  z-index: 54;
+  display: block;
+
+  /*background-color: rgba(200, 54, 54, 0.5);*/
+  visibility: visible;
+}
+h2{
+  color: white;
+}
+p{
+  color: white;
+}

@@ -114,7 +114,7 @@ var tween = TweenMax.to('#work', 5, {
 
 var scene = new ScrollMagic.Scene({
 	triggerElement: '#work',
-	duration: 700
+	duration: 900
 })
 .setTween(tween)
 .addTo(scrollMagicController);
