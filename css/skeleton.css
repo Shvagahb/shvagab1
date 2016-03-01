@@ -37,6 +37,8 @@
 .container5{
   background-image:url(../pics/footer3.png);
   background-size:cover;
+  /*background-color: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(255,0,0,1));
+  background-blend-mode: multiply;*/
   height: 47em;
   background-position-x: 0;
 }
@@ -483,8 +485,16 @@ there.
   .AboutTxt{
     display: none;
   }
-  .AboutBlurb{
+  .AboutBlurb {
     margin-top: 2em;
+    margin-right: 1em;
+
+
+  }
+  .AboutBlurb h4{
+
+    font-size: 2rem !important;
+    line-height: 2.35 !important;
 
   }
   .About{
@@ -503,6 +513,7 @@ there.
 .techText{
   font-size: 60px;
 }
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -547,9 +558,17 @@ there.
   .AboutTxt{
     display: none;
   }
-  .AboutBlurb{
+
+  .AboutBlurb {
     margin-top: 2em;
     margin-right: 1em;
+
+
+  }
+  .AboutBlurb h4{
+
+    font-size: 2rem !important;
+    line-height: 2.35 !important;
 
   }
   .About{
@@ -569,6 +588,12 @@ there.
     background-position-x: -21em;
   }
 
+.imgPaddingTop {
+  margin-top: 0 !important;
+}
+.imgPaddingLeft{
+  margin-left: 0 !important;
+}
 /*.techText{
   font-size: 60px;
 }*/

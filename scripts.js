@@ -109,7 +109,7 @@ $(function(){
 
 
 var tween = TweenMax.to('#work', 5, {
-	backgroundColor:"rgba(18, 10, 13)"
+	backgroundColor:"#696969"
 });
 
 var scene = new ScrollMagic.Scene({

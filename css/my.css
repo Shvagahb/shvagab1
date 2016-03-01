@@ -133,6 +133,8 @@ div.AboutBlurb {
   float: right;
   text-align: right;
   margin-right: 2em;
+  ont-size: 2rem;
+  line-height: 2.35;
 }
 .ok{
     padding: 11px 12px 12px 20px;
@@ -168,7 +170,7 @@ div.AboutBlurb {
 .overlay{
 
   visibility: hidden;
-  padding-bottom: 10em;
+  /*padding-bottom: 10em;*/
   margin-top: -14em;
   display: none;
   color: white;
@@ -185,7 +187,7 @@ div.AboutBlurb {
 .ok:hover .overlay{
   margin-top: -14em;
   text-align: center;
-  padding-bottom: 10em;
+  /*padding-bottom: 10em;*/
   z-index: 54;
   display: block;
   color: #87D1C4 !important;
