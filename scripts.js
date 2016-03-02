@@ -96,7 +96,7 @@ var waypoint = new Waypoint({
   handler: function(direction) {
   	document.getElementById("about").style.visibility = "visible";
   	TweenMax.to(".fadeIn",3, {opacity:1});
-    TweenMax.to(".AboutTxt", 2, {x:-330});
+    TweenMax.to(".AboutTxt", 2, {x:-290});
 	  TweenMax.to(".BiancaTxt", 2, {x:330});
  }
  //,{

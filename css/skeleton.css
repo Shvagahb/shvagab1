@@ -521,6 +521,12 @@ there.
 .headerLogo{
   z-index:4;
 }
+.imgPaddingTop {
+  margin-top: 0 !important;
+}
+.imgPaddingLeft{
+  margin-left: 0 !important;
+}
 .headerBg{
   z-index: 2;
 }
