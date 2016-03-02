@@ -57,7 +57,7 @@ div.container div.row div#about div.About h1.aboutTxt {
 }
 
 div.container div.headerBg {
-    /*position: relative;*/
+    position: relative;
     width: 100%;
     min-height: auto;
     /*color: orange;*/
