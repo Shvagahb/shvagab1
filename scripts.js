@@ -98,7 +98,10 @@ var waypoint = new Waypoint({
   	TweenMax.to(".fadeIn",3, {opacity:1});
     TweenMax.to(".AboutTxt", 2, {x:-330});
 	  TweenMax.to(".BiancaTxt", 2, {x:330});
-  }
+ }
+ //,{
+  //   offset:"20%";
+  // }
 })
 
 $(function(){
@@ -114,7 +117,7 @@ var tween = TweenMax.to('#work', 5, {
 
 var scene = new ScrollMagic.Scene({
 	triggerElement: '#work',
-	duration: 2300
+	duration: 1000
 })
 .setTween(tween)
 .addTo(scrollMagicController);

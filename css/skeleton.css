@@ -35,7 +35,7 @@
   z-index: 3;
 }
 .container5{
-  background-image:url(../pics/footer3.png);
+  background-image:url(../pics/unnamed.png);
   background-size:cover;
   /*background-color: -webkit-linear-gradient(top, rgba(255,0,0,0), rgba(255,0,0,1));
   background-blend-mode: multiply;*/
@@ -509,9 +509,20 @@ there.
   }
   .container5{
     background-position-x: -21em;
+    overflow: auto;
+    z-index: 4;
   }
 .techText{
   font-size: 60px;
+}
+#work{
+  overflow: auto;
+}
+.headerLogo{
+  z-index:4;
+}
+.headerBg{
+  z-index: 2;
 }
 
 }
@@ -586,6 +597,8 @@ there.
   }
   .container5{
     background-position-x: -21em;
+    overflow: auto;
+    z-index: 4;
   }
 
 .imgPaddingTop {
@@ -593,6 +606,15 @@ there.
 }
 .imgPaddingLeft{
   margin-left: 0 !important;
+}
+#work{
+  overflow: auto;
+}
+.headerLogo{
+  z-index:4;
+}
+.headerBg{
+  z-index: 2;
 }
 /*.techText{
   font-size: 60px;
