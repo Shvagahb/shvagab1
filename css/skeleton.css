@@ -568,7 +568,7 @@ there.
 
 
 
-@media (max-width:499px) {
+@media screen and (max-width:499px) {
   .rainbow-wordmark__image {
     display: none;
   }
@@ -614,7 +614,8 @@ there.
   margin-left: 0 !important;
 }
 #work{
-  overflow: auto;
+      /*height: 385vh;*/
+  /*overflow: auto;*/
 }
 .headerLogo{
   z-index:4;

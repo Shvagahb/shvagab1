@@ -76,7 +76,7 @@ div.container div.headerBg {
 
 /*delete*/
 div#work {
-  height: 172vh;
+  /*height: 172vh;*/
   background-color: #87D1C4;
 }
 
@@ -141,16 +141,17 @@ div.AboutBlurb {
     margin-top: 1em;
     margin-right: 0em;
     margin-bottom: 0em;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
 }
 .ok:hover {
   /*width: 60%;
   height: 60%;*/
-  z-index: 50;
+  /*z-index: 50;*/
   opacity: 1;
   /*padding-bottom: 0;*/
   /*width: 100vh;*/
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+
   -webkit-transform: scale(1.04);
 	transform: scale(1.04);
   -webkit-filter: greyscale(100%);
@@ -189,8 +190,8 @@ div.AboutBlurb {
   z-index: 54;
   display: block;
   color: #87D1C4 !important;
-  -webkit-filter: grayscale(0%) !important;
-  filter: grayscale(0%) !important;
+  /*-webkit-filter: grayscale(0%) !important;*/
+  /*filter: grayscale(0%) !important;*/
   /*filter: blur(0px) !important;
   -webkit-filter: blur(0px) !important;
   -moz-filter: blur(px) !important;
@@ -215,7 +216,7 @@ p{
   margin-top: 4em;
 }
 .imgPaddingLeft{
-  margin-left:3em !important;
+  margin-left:3em;
 }
 h2.overlay h2{
   color:white;
