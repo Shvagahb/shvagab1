@@ -534,7 +534,7 @@ there.
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
+@media screen and (min-width: 550px) {
   .rainbow-wordmark__image {
     display: block;;
   }
@@ -555,16 +555,20 @@ there.
 .container5{
   background-position-x: 0;
 }
+.low{
+  padding-left: 0em;
+
+}
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {}
+@media screen and (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media screen and (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
-@media (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {}
 
 
 
@@ -622,6 +626,10 @@ there.
 }
 .headerBg{
   z-index: 2;
+}
+.low{
+  padding-left: 0em !important;
+
 }
 /*.techText{
   font-size: 60px;

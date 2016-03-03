@@ -190,8 +190,8 @@ div.AboutBlurb {
   z-index: 54;
   display: block;
   color: #87D1C4 !important;
-  /*-webkit-filter: grayscale(0%) !important;*/
-  /*filter: grayscale(0%) !important;*/
+  -webkit-filter: grayscale(0%) !important;
+  filter: grayscale(0%) !important;
   /*filter: blur(0px) !important;
   -webkit-filter: blur(0px) !important;
   -moz-filter: blur(px) !important;
@@ -231,4 +231,8 @@ p.overlay{
   /*font-weight:600;*/
   font-family: lato;
   background-color:rgba(0, 0, 0, 0.5);
+}
+.low{
+  padding-left: 5em;
+
 }
