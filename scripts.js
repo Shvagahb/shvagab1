@@ -91,6 +91,8 @@ function render() {
   }
 }
 
+//------------------END OF RAINBOW STUFF--------------------------------
+
 var waypoint = new Waypoint({
   element: document.getElementById('waypoint'),
   handler: function(direction) {
