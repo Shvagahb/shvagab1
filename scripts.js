@@ -11,7 +11,7 @@ var canvasHeight = canvas.height;
 
 var whiteImg = new Image();
 whiteImg.onload = onWhiteImgLoad;
-whiteImg.src = 'bi.png';
+whiteImg.src = 'pics/hiimbianca.svg';
 
 function onWhiteImgLoad() {
   setColorCanvas( 'red', '#AA333F' );
