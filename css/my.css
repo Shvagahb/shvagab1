@@ -42,24 +42,31 @@ div.container div.row div.rainbow-wordmark canvas.rainbowAlign {
     /*margin-left: 3em;
     margin-top: 1em;*/
     z-index:4;
-    left: 50%;
-    padding-top: 1em;
-    margin-left: 23.5em;
+    /*left: 50%;*/
+    padding-top: 5em;
 
 }
 
 div.container div.row div.rainbow-wordmark img.whiteLogoAlign {
     position: absolute;
-    top: 17px;
+    top: 5em;
     /*left: 46px;*/
-    left: 50%;
-    margin-left: -19em;
+    /*left: 50%;
+    margin-left: -325px;*/
+
+}
+
+.wordmarkHolder{
+  position: absolute;
+  left: 50%;
+  margin-left: -295px;
 
 }
 
 .rainbow-wordmark__image {
-  z-index: 5;
+  z-index: 6;
 }
+
 
 div.container div#about div.About {
     background-image: url("../pics/leafs.svg");
