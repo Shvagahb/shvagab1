@@ -479,12 +479,12 @@ there.
 
 /* Larger than mobile */
 @media (min-width: 400px) {
-  .rainbow-wordmark__image {
+  /*.rainbow-wordmark__image {
     display: none;
-  }
-  .AboutTxt{
+  }*/
+  /*.AboutTxt{
     display: none;
-  }
+  }*/
   .AboutBlurb {
     margin-top: 2em;
     margin-right: 1em;
@@ -573,9 +573,9 @@ there.
 
 
 @media screen and (max-width:499px) {
-  .rainbow-wordmark__image {
+  /*.rainbow-wordmark__image {
     display: none;
-  }
+  }*/
   .AboutTxt{
     display: none;
   }
